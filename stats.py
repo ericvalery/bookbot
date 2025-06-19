@@ -5,7 +5,7 @@ def get_word_count(book_path):
     word_list = book_contents.split()
     for word in word_list:
         num_words += 1
-    return f"{num_words} words found in the document"
+    return f"Found {num_words} total words."
 def get_character_count(book_path):
     char_count_dict = {}
     with open(book_path) as b:
